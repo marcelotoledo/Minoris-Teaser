@@ -32,14 +32,29 @@ input {
     margin-top: 0px;
     font-family: Tahoma;
     font-size: 11px;
+    color: #575757;
     text-transform: uppercase;
     border: 0px;
 }
 
+input:focus {
+    border: 0;
+    outline: none;
+}
+
 input#email {
-    height: 39px;
-    line-height: 21px;
-    width: 175px;
+    position: absolute;
+    margin-left: 1px;
+    margin-top: 1px;
+
+    padding: 13px 0 13px 14px;
+    width: 160px;
+}
+
+input#emailButton {
+    position: absolute;
+    margin-left: 176px;
+    margin-top: 1px;
 }
 
 /* footer */
