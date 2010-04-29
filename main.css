@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    margin-left: 45%;
+    margin-top: 150px;
+}
+
+#firstParagraph {
+    margin-left: 45%; 
+    margin-top: 58px;
+}
+
+#secondParagraph {
+    margin-top: 39px; 
+    margin-left: 45%; 
+}
+
+#redBox {
+    padding: 0;
+    margin-left: 45%;
+    margin-top: 58px;
+    background-image: url(images/red_pattern.png);
+    height: 195px;
+    width: auto;
+}
+
+input {
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: Tahoma;
+    font-size: 11px;
+    text-transform: uppercase;
+    border: 0px;
+}
+
+input#email {
+    height: 39px;
+    line-height: 21px;
+    width: 175px;
+}
+
+/* footer */
+#followUs {
+    position: absolute; 
+    bottom: 10px; 
+
+    margin-left: 45%; 
+    vertical-align: middle;
+    margin-top: 156px; 
+}
+
+div#followUs img {
+    border: 0px;
+}
+
+#followUsImg {
+    margin-right: 45px;
+}
+
+#twitter {
+    margin-right: 25px;
+}
