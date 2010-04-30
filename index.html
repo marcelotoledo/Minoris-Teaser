@@ -5,7 +5,9 @@
     <meta name="description" content="Clube de compras Minoris. As melhoras marcas com até 90% de desconto." />
     <meta name="keywords" content="Minoris clube de compras." />
     
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <script type="text/javascript" src="js/main.js"></script>
     <title>Minoris</title>
   </head>
   <body>
@@ -17,14 +19,14 @@
     <div id="redBox">
       <form name="myform" action="#">
         <input type="text" id="email" name="email" value="" />
-        <input type="image" id="emailButton" src="images/ok.jpg" value="Ok" alt="Ok" />
+        <input type="image" name="emailButton" id="emailButton" src="images/ok.jpg" value="Ok" alt="Ok" onmouseover="javascript:this.src='images/ook.jpg';" onmouseout="javascript:this.src='images/ok.jpg';" />
       </form>
 
     </div>
     
     <div id="followUs">
-      <span id="followUsImg"><img alt="" src="images/followus.jpg" /></span>
-      <span id="twitter"><a href="http://twitter.com/MinorisClub"><img alt="" src="images/twitter.jpg" /></a></span>
+      <img alt="" src="images/followus.jpg" id="fuimg" />
+      <a href="http://twitter.com/MinorisClub"><img alt="" src="images/twitter.jpg" id="twitter" /></a>
       <a href="http://www.facebook.com/pages/Minoris/112625272106782"><img alt="" src="images/facebook.jpg" /></a>
     </div>
   </body>

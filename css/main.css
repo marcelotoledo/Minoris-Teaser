@@ -22,7 +22,7 @@ body {
     padding: 0;
     margin-left: 45%;
     margin-top: 58px;
-    background-image: url(images/red_pattern.png);
+    background-image: url(../images/red_pattern.png);
     height: 195px;
     width: auto;
 }
@@ -71,10 +71,12 @@ div#followUs img {
     border: 0px;
 }
 
-#followUsImg {
-    margin-right: 45px;
-}
-
 #twitter {
     margin-right: 25px;
+    margin-bottom: 4px;
+}
+
+#fuimg {
+    margin-right: 45px;
+    margin-bottom: 5px;
 }
